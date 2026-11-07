@@ -60,4 +60,4 @@ Optional in der Anwendungs-Konfiguration:
 
    Die Debian-Logrotation für `/var/log/apache2/*.log` erzeugt rotierte
    Dateien ebenfalls mit `root:adm 640`.
-# modsecuritylog
+
