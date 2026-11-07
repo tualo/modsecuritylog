@@ -25,9 +25,9 @@ Ext.define('Tualo.routes.ModSecurityLog', {
             }
         },
         before: function (action) {
-            Ext.require('Tualo.modsecuritylog.lazy.Panel', function () {
-                action.resume();
-            }, this);
+            // Ext.require('Tualo.modsecuritylog.lazy.Panel', function () {
+            action.resume();
+            // }, this);
         }
     }
 });
