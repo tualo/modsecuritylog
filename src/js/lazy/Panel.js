@@ -13,6 +13,13 @@ Ext.define('Tualo.modsecuritylog.lazy.Panel', {
     listeners: {
         boxready: 'onBoxReady'
     },
+
+    getWindowTitle: function () {
+        return 'ModSecurity Log'
+    },
+    getWindowIcon: function () {
+        return 'fa-solid fa-gears';
+    },
     title: 'ModSecurity Log',
     closable: true,
     layout: 'border',
